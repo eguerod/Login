@@ -45,7 +45,7 @@ public class Controller {
 			alert = new Alert(AlertType.ERROR);
 			alert.setTitle("Iniciar sesión");
 			alert.setHeaderText("Error al identificarse");
-			alert.setContentText("Se ha producido un error durante la autentificación.");
+			alert.setContentText("Se ha producido un error durante la autentificación: ".concat(e1.getLocalizedMessage()));
 		}
 		
 		alert.show();

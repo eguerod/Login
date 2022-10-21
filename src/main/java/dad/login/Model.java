@@ -6,6 +6,7 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 public class Model {
+	
 	private StringProperty usuario = new SimpleStringProperty();
 	private StringProperty contraseña = new SimpleStringProperty();
 	private BooleanProperty ldap = new SimpleBooleanProperty();
