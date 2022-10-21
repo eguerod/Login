@@ -52,7 +52,7 @@ public class Controller {
 	}
 
 	private void onCancelarAction(ActionEvent e) {
-		Platform.exit();
+		Login.primaryStage.close();
 	}
 
 	public View getView() {
